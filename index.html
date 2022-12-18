@@ -5,68 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/rsschool-cv/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="main">
-    <h1>Alena Kuzmitskaya</h1>
-    <h2>About me</h2>
-    <img src="/rsschool-cv/img/foto.jpg" alt="photo">
-    <h2>Education</h2>
-    <ul>
-      Mogilev State University named after A.A. Kuleshova - bachelor's degree in
-      law
-    </ul>
-    <ul>
-      Academy of Public Administration under the President of the Republic of
-      Belarus - master's degree in law
-    </ul>
-    <ul>
-      JS/FE Pre-School 2022Q4 in progress
-    </ul>
-    <h2>Experience</h2>
-    <p>
-      Deputy Commercial Director in a construction company. Responsibilities:
-    </p>
-    <ul>
-      management of the commercial department of the organization
-    </ul>
-    <ul>
-      full legal support of the company's activities
-    </ul>
-    <h2>My skills</h2>
-    <h3>Key skills:</h3>
-    <ul>
-      Knowledge of Javascript
-    </ul>
-    <ul>
-      Working with HTML, CSS
-    </ul>
-    <h3>Code example from codewars</h3>
-    <pre>
- Function createPhoneNumber(numbers){
-    let num = numbers.splice(0, 3).join('')
-    let num1 = numbers.splice(0, 3).join('')
-    let num2 = numbers.splice(0, 4).join('')
-    return `(${num}) ${num1}-${num2}`
-  }</pre>
-    <h3>Additional Information</h3>
-    <p>Foreign languages: English (B1)</p>
+    <header>
+      <div class="leftside"></div>
+      <div class="header-main">
+      <h1>Alena Kuzmitskaya</h1>
+      <p>Professional title</p>
+      </div>
+    </header>
+    <main>
+      <div class="sidebar">
+        <img src="./img/DSCN3885.JPG" alt="picture girl" width="78%" height="44%">
+        <div class="menu">
+          <nav>
+            <ul class="menu-style"><h2>About me</h2>
+              <li><a class="menu-text" href="#experience">Experience</a></li>
+              <li><a class="menu-text" href="#education">Education</a></li>
+              <li><a class="menu-text" href="#skills">My skills</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="contact">
+          <ul class="contact-style"><h2>Contacts:</h2>
+            <li>tel: +37596075561</li>
+            <li>email: alenakuzmitskaya@gmail.com</li>
+            <li>discord: hellena16#7718</li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-content">
+        <div id="education">
+          <h2>Education</h2>
+            <p>Mogilev State University - bachelor's degree in law</p>
+            <p>Academy - master's degree in law</p>
+            <p>JS/FE Pre-School 2022Q4 in progress</p>
+        </div>
+        <div id="experience">  
+          <h2 >Experience</h2>
+          <p> Deputy Commercial Director in construction company</p>
+          <p>Responsibilities:</p>
+            <p> management of the commercial department of the organization
+            </p>
+            <p>full legal support of the company's activities
+            </p>
+        </div>
+        <div id="skills">
+          <h2 >My skills</h2>
+          <h3>Key skills:</h3>
+          <p>Knowledge of Javascript</p>
+          <p>Working with HTML5, CSS3, JS, git, typescript</p>
+          <h3>Code example from codewars</h3>
+          <pre><i>
+          Function createPhoneNumber(numbers){
+            let num = numbers.splice(0, 3).join('')
+            let num1 = numbers.splice(0, 3).join('')
+            let num2 = numbers.splice(0, 4).join('')
+            return `(${num}) ${num1}-${num2})`
+          }</i>
+          </pre>
+          <h3>My project</h3>
+          <p><a class="link" href="https://github.com/hellena16/layout/">My work</a></p>
+          <h3>Additional Information</h3>
+          <p>Foreign languages: English (B1)</p>
+          <p>Personal qualities:</p>
+          <p>communicative, energetic, initiative, organized,
+          punctual, purposeful</p>
+        </div>
+      </div>
+    </main>
     <footer>
-      <h2>Contact:</h2>
-      <ul>
-        tel: +37596075561
-      </ul>
-      <ul>
-        email: alenakuzmitskaya@gmail.com
-      </ul>
-      <ul>
-        Discord: hellena16#7718
-      </ul>
-      <ul>
-        https://github.com/hellena16
+      <div class="logo"><img src="https://rs.school/images/rs_school_js.svg" alt="logo RS school"></div>
+      <a class="link" href="https://rs.school/js/">JS/FE Pre-School 2022Q4</a>   
+      <a class="link" href="https://github.com/hellena16">My github</a>
+      <div class="date">Create 2022</div>
       </ul>
     </footer>
-    </div>
   </body>
 </html>
