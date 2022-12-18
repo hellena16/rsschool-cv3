@@ -31,6 +31,11 @@ main{
     flex-direction: column;
     align-items: center;
 }
+.foto{
+    width: 20vw;
+    height: 60vh;
+    
+}
 .menu, .contact{
     align-self: flex-start;
 }
@@ -41,7 +46,9 @@ main{
 .menu-style, .contact-style{
     list-style-type: none;
 }
-
+.menu-h{
+    font-size: 32px;
+}
 .menu-text{
     text-decoration: none;
     color: black;
