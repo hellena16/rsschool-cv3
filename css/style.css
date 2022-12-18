@@ -38,6 +38,7 @@ main{
 }
 .menu, .contact{
     align-self: flex-start;
+    padding-left: 2vw;
 }
 .menu{
     padding-top: 10vh;
@@ -45,18 +46,19 @@ main{
 }
 .menu-style, .contact-style{
     list-style-type: none;
-}
-.menu-h{
     font-size: 32px;
 }
 .menu-text{
     text-decoration: none;
     color: black;
+    font-size: 24px;
 }
 .contact{
-    font-size: 14px;
     padding-top: 15vh;
 
+}
+.contact-text{
+    font-size: 14px;
 }
 .main-content{
     display: flex;
